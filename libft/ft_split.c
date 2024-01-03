@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aulicna <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: aulicna <aulicna@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 19:08:50 by aulicna           #+#    #+#             */
-/*   Updated: 2023/01/21 17:04:08 by aulicna          ###   ########.fr       */
+/*   Updated: 2024/01/03 10:46:42 by aulicna          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ char	**ft_split(char const *s, char c)
 	if (!s)
 	{
 		return (0);
-	}	
+	}
 	num_wrds = ft_count_words(s, c);
 	arr = (char **) malloc(sizeof(char *) * (num_wrds + 1));
 	if (!arr)

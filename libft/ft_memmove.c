@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aulicna <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: aulicna <aulicna@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 16:42:43 by aulicna           #+#    #+#             */
-/*   Updated: 2023/01/21 16:32:30 by aulicna          ###   ########.fr       */
+/*   Updated: 2024/01/03 10:46:24 by aulicna          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			((char *) dest)[i] = ((char *) src)[i];
 			i--;
 		}
-	}	
+	}
 	return (dest);
 }

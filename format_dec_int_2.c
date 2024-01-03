@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   format_dec_int_2.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aulicna <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: aulicna <aulicna@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:29:53 by aulicna           #+#    #+#             */
-/*   Updated: 2023/02/20 16:38:14 by aulicna          ###   ########.fr       */
+/*   Updated: 2024/01/03 10:46:10 by aulicna          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ static int	format_dec_int_neg_helper(int num, t_format *format)
 }
 
 int	format_dec_int_prec_min_negative(int num, t_format *format)
-{	
+{
 	int	printed;
 
 	if (format->prec == 1)
